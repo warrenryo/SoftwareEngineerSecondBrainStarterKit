@@ -1,0 +1,15 @@
+# Obsidian and non-source folders
+.obsidian/
+40 - Archive/
+Attachments/
+Templates/
+graphify-out/
+.agents/
+
+# Root operating notes and profile snapshots are routing/configuration, not corpus
+/AGENTS.md
+/CONTEXT.md
+/Home.md
+/README.md
+/PROFILE-INVENTORY.md
+/log.md
