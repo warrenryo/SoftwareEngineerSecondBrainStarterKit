@@ -28,13 +28,17 @@ Use the matching task skill when one is available. The current profile specifica
 
 ## Keep project context current
 
-At the end of a coding session:
+At the end of every coding session, including sessions where code changes are made only in another repository:
 
 1. Update the project Hub's `status`, `next`, and `updated` fields when they change.
 2. Create one dated session note directly inside the project folder from [[Templates/Coding Session]]. Include Focus, What was built, Mistakes, Decisions, Wins, context used, files changed, verification (or say not run), and next action.
 3. Add a short dated link to that note in the root [[log]].
 4. Promote durable findings to one canonical Knowledge note and link it from the project's Knowledge map or domain MOC. Keep detailed code history in the repository or tracker.
 5. Do not paste full transcripts or diffs into a session note or `log.md`.
+
+## Make this vault global for Codex
+
+When adopting this starter kit as the active engineering vault, update Codex's user-wide `AGENTS.md` using [[Codex Setup/README]] and the portable template [[Codex Setup/Global AGENTS]]. This is required for tasks launched from other repositories: merge the template into the global file, preserve unrelated rules, and replace `{{VAULT_ROOT}}` with this folder's absolute path. The global instructions must route every software engineering session through this vault and require a dated session note plus root `log.md` link at the end of each coding session. Do not overwrite the current global profile until this starter kit is the intended primary vault.
 
 ## Install guide: Codex, skills, agents, plugins, and MCP
 

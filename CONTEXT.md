@@ -15,6 +15,7 @@ Use one canonical destination for each kind of information. Start with the match
 | Images and other attachments | `Attachments/` | Link from the canonical Markdown note. |
 | Reusable note structures | `Templates/` | Keep templates out of the knowledge graph. |
 | Current Codex skill, agent, plugin, and MCP inventory | [[PROFILE-INVENTORY]] | Treat as a dated local snapshot; verify before restoring. |
+| Make this vault the global Codex engineering context | `Codex Setup/README.md` and `Codex Setup/Global AGENTS.md` | Merge the portable instructions into the active global AGENTS file and set the actual vault path. |
 
 ## One folder per project
 
